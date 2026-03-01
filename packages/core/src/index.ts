@@ -1,4 +1,7 @@
-// Init
+// Runtime
+export { createAddinStack } from "./runtime/createAddinStack";
+
+// Init (optional direct use)
 export { initOffice } from "./init/initOffice";
 
 // Host
