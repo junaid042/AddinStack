@@ -1,6 +1,3 @@
-// Runtime
-export { createAddinStack } from "./runtime/createAddinStack";
-
 // Init (optional direct use)
 export { initOffice } from "./init/initOffice";
 
@@ -14,3 +11,8 @@ export { hasRequirement } from "./requirements/hasRequirement";
 export { runExcel } from "./excel/runExcel";
 
 export { requireHost } from "./host/requireHost";
+
+// Runtime
+export type { AddinStackPlugin } from "./plugins/types";
+export { createAddinStack } from "./runtime/createAddinStack";
+export type { AddinStackConfig } from "./runtime/config";
