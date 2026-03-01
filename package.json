@@ -1,0 +1,15 @@
+{
+  "name": "addinstack",
+  "private": true,
+  "version": "0.0.0",
+  "description": "AddinStack monorepo",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w @addinstack/core",
+    "dev": "npm run dev -w @addinstack/core",
+    "clean": "npm run clean -w @addinstack/core"
+  },
+  "license": "MIT"
+}
