@@ -12,3 +12,5 @@ export { hasRequirement } from "./requirements/hasRequirement";
 
 // Excel
 export { runExcel } from "./excel/runExcel";
+
+export { requireHost } from "./host/requireHost";
